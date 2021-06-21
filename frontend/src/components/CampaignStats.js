@@ -10,7 +10,7 @@ const CampaignStats = () => {
 							width='30'
 							height='30'
 							fill='currentColor'
-							class='mr-2'
+							className='mr-2'
 							viewBox='0 0 16 16'
 						>
 							<path d='M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z' />
@@ -33,7 +33,7 @@ const CampaignStats = () => {
 							width='14'
 							height='14'
 							fill='currentColor'
-							class='mr-2'
+							className='mr-2'
 							viewBox='0 0 16 16'
 						>
 							<path d='M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z' />
@@ -50,7 +50,7 @@ const CampaignStats = () => {
 							width='14'
 							height='14'
 							fill='currentColor'
-							class='mr-2'
+							className='mr-2'
 							viewBox='0 0 16 16'
 						>
 							<path d='M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z' />
@@ -67,7 +67,7 @@ const CampaignStats = () => {
 							width='14'
 							height='14'
 							fill='currentColor'
-							class='mr-2'
+							className='mr-2'
 							viewBox='0 0 16 16'
 						>
 							<path d='M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z' />
@@ -84,7 +84,7 @@ const CampaignStats = () => {
 							width='14'
 							height='14'
 							fill='currentColor'
-							class='mr-2'
+							className='mr-2'
 							viewBox='0 0 16 16'
 						>
 							<path d='M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z' />
