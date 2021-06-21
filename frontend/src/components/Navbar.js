@@ -14,7 +14,7 @@ const Navbar = () => {
 						<ul>
 							<li class='my-12 text-center'>
 								<a href='/'>
-									<span class='h-6 w-6 text-gray-400 mx-auto hover:text-gray-100 transition-colors duration-200'>
+									<span class='h-6 w-6 mx-auto text-gray-400 hover:text-indigo-500 transition-colors duration-200'>
 										<svg
 											xmlns='http://www.w3.org/2000/svg'
 											width='20'
@@ -37,7 +37,7 @@ const Navbar = () => {
 							</li>
 							<li class='my-12 text-center'>
 								<a href='/'>
-									<span class='h-6 w-6 text-gray-400 mx-auto hover:text-gray-100 transition-colors duration-200'>
+									<span class='h-6 w-6 mx-auto text-gray-400 hover:text-indigo-500  transition-colors duration-200'>
 										<svg
 											xmlns='http://www.w3.org/2000/svg'
 											width='20'
@@ -53,7 +53,7 @@ const Navbar = () => {
 							</li>
 							<li class='my-12 text-center'>
 								<a href='/'>
-									<span class='h-6 w-6 text-gray-400 mx-auto hover:text-gray-100 transition-colors duration-200'>
+									<span class='h-6 w-6 mx-auto text-gray-400 hover:text-indigo-500  transition-colors duration-200'>
 										<svg
 											xmlns='http://www.w3.org/2000/svg'
 											width='20'
@@ -70,7 +70,7 @@ const Navbar = () => {
 							</li>
 							<li class='my-12 text-center'>
 								<a href='/'>
-									<span class='h-6 w-6 text-gray-400 mx-auto hover:text-gray-100 transition-colors duration-200'>
+									<span class='h-6 w-6 mx-auto text-gray-400 hover:text-indigo-500 transition-colors duration-200'>
 										<svg
 											xmlns='http://www.w3.org/2000/svg'
 											width='20'
@@ -86,7 +86,7 @@ const Navbar = () => {
 							</li>
 							<li class='my-12 text-center'>
 								<a href='/'>
-									<span class='h-6 w-6 text-gray-400 mx-auto hover:text-gray-100 transition-colors duration-200'>
+									<span class='h-6 w-6 mx-auto text-gray-400 hover:text-indigo-500  transition-colors duration-200'>
 										<svg
 											xmlns='http://www.w3.org/2000/svg'
 											width='20'
@@ -102,7 +102,7 @@ const Navbar = () => {
 							</li>
 							<li class='my-12 text-center'>
 								<a href='/'>
-									<span class='h-6 w-6 text-gray-400 mx-auto hover:text-gray-100 transition-colors duration-200'>
+									<span class='h-6 w-6 mx-auto text-gray-400 hover:text-indigo-500  transition-colors duration-200'>
 										<svg
 											xmlns='http://www.w3.org/2000/svg'
 											width='20'
@@ -123,7 +123,7 @@ const Navbar = () => {
 							</li>
 							<li class='my-12 text-center'>
 								<a href='/'>
-									<span class='h-6 w-6 text-gray-400 mx-auto hover:text-gray-100 transition-colors duration-200'>
+									<span class='h-6 w-6 mx-auto text-gray-400 hover:text-indigo-500  transition-colors duration-200'>
 										<svg
 											xmlns='http://www.w3.org/2000/svg'
 											width='20'
@@ -139,7 +139,7 @@ const Navbar = () => {
 							</li>
 							<li class='my-12 text-center'>
 								<a href='/'>
-									<span class='h-6 w-6 text-gray-400 mx-auto hover:text-gray-100  transition-colors duration-200'>
+									<span class='h-6 w-6 mx-auto text-gray-400 hover:text-indigo-500   transition-colors duration-200'>
 										<svg
 											xmlns='http://www.w3.org/2000/svg'
 											width='20'
@@ -163,7 +163,7 @@ const Navbar = () => {
 						</ul>
 					</div>
 				</div>
-				<div class='mb-4 text-gray-400 hover:text-gray-100'>
+				<div class='mb-4 text-gray-400 hover:text-indigo-500 '>
 					<a href='/'>
 						<span>
 							<svg

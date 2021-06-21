@@ -1,4 +1,25 @@
+import { Line } from 'react-chartjs-2'
+
 const ApplicationRecieved = () => {
+	const data = {
+		labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+		datasets: [
+			{
+				label: 'First dataset',
+				data: [25, 50, 40, 45, 79, 65],
+				fill: true,
+				backgroundColor: 'rgba(108,50,58,0.4)',
+				borderColor: 'rgba(255,82,97)',
+			},
+			{
+				label: 'Second dataset',
+				data: [33, 25, 35, 51, 54, 76],
+				fill: false,
+				borderColor: 'rgb(92,98,109)',
+			},
+		],
+	}
+
 	return (
 		<div className='flex flex-col w-full h-full p-4 border border-gray-700 rounded-md'>
 			<div className='flex justify-between items-center'>
@@ -43,7 +64,16 @@ const ApplicationRecieved = () => {
 					</div>
 				</div>
 			</div>
-			<div></div>
+			<div>
+				<Line
+					data={data}
+					options={{
+						responsive: true,
+						maintainAspectRatio: false,
+					}}
+					height={250}
+				/>
+			</div>
 		</div>
 	)
 }

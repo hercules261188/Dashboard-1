@@ -5,12 +5,12 @@ import ApplicationStats from './components/ApplicationStats'
 import StatCard from './components/StatCard'
 import CampaignStats from './components/CampaignStats'
 import Tracker from './components/Tracker'
-import DoughuntChart from './components/DoughuntChart'
+import Position from './components/Position'
 import ApplicationRecieved from './components/ApplicationRecieved'
 
 function App() {
 	return (
-		<main className='flex bg-gray-900 text-gray-200'>
+		<main className='flex bg-gray-900 text-gray-200 max-h-screen divide-x divide-gray-700'>
 			<Navbar />
 			<div className='grid grid-rows-6 grid-cols-5 w-screen'>
 				<div className='col-span-full'>
@@ -21,6 +21,7 @@ function App() {
 						title='Total Applications'
 						number='7956'
 						percent='+3.59'
+						progress='70'
 						color='text-purple-500'
 						bgcolor=''
 					/>
@@ -30,6 +31,7 @@ function App() {
 						title='Shortlisted Candidates'
 						number='4658'
 						percent='+06'
+						progress='60'
 						color='text-gray-200'
 						bgcolor='bg-indigo-500'
 					/>
@@ -39,6 +41,7 @@ function App() {
 						title='Total Applications'
 						number='1501'
 						percent='-04'
+						progress='40'
 						color='text-red-500'
 						bgcolor=''
 					/>
@@ -56,7 +59,7 @@ function App() {
 					<CampaignStats />
 				</div>
 				<div className='rounded-md mx-4 mb-2 row-span-2'>
-					<DoughuntChart />
+					<Position />
 				</div>
 			</div>
 		</main>

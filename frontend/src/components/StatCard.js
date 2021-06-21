@@ -1,4 +1,4 @@
-const StatCard = ({ title, number, percent, color, bgcolor }) => {
+const StatCard = ({ title, number, percent, progress, color, bgcolor }) => {
 	return (
 		<div
 			className={`flex font-bold p-4 h-full w-full justify-between border border-gray-700 rounded-md ${bgcolor}`}
@@ -36,6 +36,11 @@ const StatCard = ({ title, number, percent, color, bgcolor }) => {
 					{percent}%
 				</div>
 			</div>
+			<div className='flex justify-center items-center'>
+				{progress === '70' && <img src='/images/pr70.png' alt='70%' />}
+				{progress === '60' && <img src='/images/pr60.png' alt='60%' />}
+				{progress === '40' && <img src='/images/pr40.png' alt='40%' />}
+			</div>
 			<div className='flex flex-col'>
 				<div>
 					<button>
@@ -50,7 +55,6 @@ const StatCard = ({ title, number, percent, color, bgcolor }) => {
 						</svg>
 					</button>
 				</div>
-				<div></div>
 			</div>
 		</div>
 	)
