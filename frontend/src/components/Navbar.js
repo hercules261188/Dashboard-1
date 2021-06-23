@@ -5,9 +5,9 @@ const Navbar = () => {
 				<div className='mt-6 mb-10'>
 					<a href='/'>
 						<img
-							src='/images/profile.jpg'
+							src='/images/logo.png'
 							alt='profile'
-							className='rounded-full w-10 h-10 mb-3 mx-auto'
+							className='rounded-full w-14 h-14 mb-3 mx-auto'
 						/>
 					</a>
 					<div className='mt-8'>
