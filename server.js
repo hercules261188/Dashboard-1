@@ -3,8 +3,6 @@ const path = require('path')
 const app = express()
 PORT = 5000
 
-console.log(__dirname)
-
 app.use(express.static(path.join(__dirname, 'frontend/build')))
 
 app.get('/', (req, res) => {
