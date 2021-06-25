@@ -10,9 +10,9 @@ import ApplicationRecieved from './components/ApplicationRecieved'
 
 function App() {
 	return (
-		<main className='flex bg-gray-900 text-gray-200 max-h-screen divide-x divide-gray-700'>
+		<main className='flex bg-gray-900 text-gray-200 max-h-full lg:max-h-screen divide-x divide-gray-700'>
 			<Navbar />
-			<div className='grid grid-rows-6 grid-cols-5 w-screen'>
+			<div className='sm:flex sm:flex-col lg:grid lg:grid-rows-6 lg:grid-cols-5 w-screen'>
 				<div className='col-span-full'>
 					<Header />
 				</div>
